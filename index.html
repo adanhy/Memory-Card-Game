@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Memory Card Game</title>
+  </head>
+  <body>
+    <div id="welcome">
+      <img
+        id="spongecards"
+        src="https://media0.giphy.com/media/xT3i16tPFVYPaIO412/giphy.gif"
+        alt=""
+      />
+      <h1>Memory Card Game</h1>
+      <h2>Flip it and win it</h2>
+      <button id="start">Let's Go</button>
+    </div>
+    <div id="wrapper">
+      <div id="title-box">
+        <h1>Memory Cards Game</h1>
+      </div>
+      <div><label>Time: </label><label id="timer"></label></div>
+      <div id="card-box"></div>
+      <div id="restart">
+        <h1>Good Job!</h1>
+        <h2 id="result"></h2>
+        <img
+          src="https://media2.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif?cid=ecf05e47o700bf7i2ydfafpapj9bem9vlv8wwzyocqqcczn8&rid=giphy.gif"
+          alt="good job spongebob"
+        />
+        <div>
+          <button id="restartbutton">Try again with</button>
+          <select id="options">
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <option value="20">20</option>
+          </select>
+          <label>Cards</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
